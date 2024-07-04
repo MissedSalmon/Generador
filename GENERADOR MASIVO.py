@@ -3,7 +3,7 @@ from faker import Faker
 import os
 
 fake = Faker()
-directory = 'C:/Users/leoca/Desktop/Facu/BD/TPI/IMPORTAR TABLAS'
+directory = 'C:/directory'
 
 def generate_docente_csv(filename, num_rows):
     legajos = []
