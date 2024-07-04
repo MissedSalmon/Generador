@@ -112,7 +112,6 @@ def generate_docente_participa_reuniones_csv(filename, docente_legajos, reunione
             reunion = fake.random_element(reuniones)
             writer.writerow([legajo, reunion])
 
-# Completar con más funciones de generación de datos para las otras tablas
 
 def generate_pasividad_obtenida_csv(filename, docente_legajos, num_rows):
     with open(os.path.join(directory, filename), mode='w', newline='') as file:
